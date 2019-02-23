@@ -1,0 +1,21 @@
+#!/bin/bash
+
+master_file=./1up.svg
+stains_color="ff0000"
+
+create_1up()
+{
+  target_color=$1
+  color_name=$2
+  target_file_name="1up_${color_name}.svg"
+  cmd="cat ${master_file} | sed -E \"s/${stains_color}/${target_color}/\" > ${target_file_name}"
+  echo ${cmd}
+  bash -c "${cmd}"
+}
+
+create_1up ff0000 red
+create_1up f27d30 orange
+create_1up 23c440 green
+create_1up ff7fd8 pink
+create_1up 0e69ea blue
+create_1up fff547 yellow
