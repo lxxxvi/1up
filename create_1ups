@@ -1,21 +1,34 @@
 #!/bin/bash
 
 master_file=./1up.svg
+output_folder=./output
 stains_color="ff0000"
+colors_file=./colors.csv
+
+create_file_name()
+{
+  color_name=$1
+  rgb=$2
+
+  distinction="${rgb}"
+
+  if [[ ${color_name} != "" ]]; then
+    distinction="${color_name}"
+  fi
+
+  echo "${output_folder}/1up_${distinction}.svg"
+}
 
 create_1up()
 {
   target_color=$1
   color_name=$2
-  target_file_name="1up_${color_name}.svg"
+  target_file_name=`create_file_name ${color_name} ${target_color}`
   cmd="cat ${master_file} | sed -E \"s/${stains_color}/${target_color}/\" > ${target_file_name}"
   echo ${cmd}
   bash -c "${cmd}"
 }
 
-create_1up ff0000 red
-create_1up f27d30 orange
-create_1up 23c440 green
-create_1up ff7fd8 pink
-create_1up 0e69ea blue
-create_1up fff547 yellow
+while IFS=, read -r rgb color_name; do
+  create_1up ${rgb} ${color_name}
+done < ./colors.csv
