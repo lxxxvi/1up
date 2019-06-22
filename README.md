@@ -16,11 +16,11 @@ The 1ups will be saved into `./output/`
 
 | Blue | Green | Orange |
 |------|-------|--------|
-| ![Blue 1up](./examples/1up_blue.svg) | ![Green 1up](./examples/1up_green.svg) | ![Orange 1up](./examples/1up_orange.svg) |
+| ![Blue 1up](./docs/examples/1up_blue.svg) | ![Green 1up](./docs/examples/1up_green.svg) | ![Orange 1up](./docs/examples/1up_orange.svg) |
 
 | Pink | Red   | Yellow |
 |------|-------|--------|
-| ![Pink 1up](./examples/1up_pink.svg) | ![Red 1up](./examples/1up_red.svg) | ![Yellow 1up](./examples/1up_yellow.svg) |
+| ![Pink 1up](./docs/examples/1up_pink.svg) | ![Red 1up](./docs/examples/1up_red.svg) | ![Yellow 1up](./docs/examples/1up_yellow.svg) |
 
 
 
