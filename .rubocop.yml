@@ -1,0 +1,6 @@
+AllCops:
+  Exclude:
+    - 'bin/bundle'
+
+Metrics/LineLength:
+  Max: 120
