@@ -1,8 +1,9 @@
 #!/bin/bash
 
-master_file=./1up.svg
+master_file=./template.svg
 output_folder=./output
-stains_color="ff0000"
+stains_matcher="__STAINS__"
+meshes_matcher="__MESHES__"
 colors_file=./colors.csv
 
 create_file_name()
@@ -21,14 +22,15 @@ create_file_name()
 
 create_1up()
 {
-  target_color=$1
-  color_name=$2
-  target_file_name=`create_file_name ${color_name} ${target_color}`
-  cmd="cat ${master_file} | sed -E \"s/${stains_color}/${target_color}/\" > ${target_file_name}"
+  stains_color=$1
+  meshes_color=$2
+  color_name=$3
+  target_file_name=`create_file_name ${color_name} ${stains_color}`
+  cmd="cat ${master_file} | sed -E \"s/${stains_matcher}/${stains_color}/\" | sed -E \"s/${meshes_matcher}/${meshes_color}/\" > ${target_file_name}"
   echo ${cmd}
   bash -c "${cmd}"
 }
 
-while IFS=, read -r rgb color_name; do
-  create_1up ${rgb} ${color_name}
+while IFS=, read -r stains_color meshes_color color_name; do
+  create_1up ${stains_color} ${meshes_color} ${color_name}
 done < ./colors.csv
