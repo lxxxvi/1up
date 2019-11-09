@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg width="100%" height="100%" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+  <g id="borders">
+    <rect height="1" id="borders_1" width="6" x="5" y=""/>
+    <rect height="1" id="borders_2" width="3" x="3" y="1"/>
+    <rect height="1" id="borders_3" width="2" x="2" y="2"/>
+    <rect height="1" id="borders_4" width="2" x="1" y="3"/>
+    <rect height="2" id="borders_5" width="1" x="1" y="4"/>
+    <rect height="7" id="borders_6" width="1" x="" y="5"/>
+    <rect height="2" id="borders_7" width="2" x="1" y="11"/>
+    <rect height="2" id="borders_8" width="1" x="2" y="13"/>
+    <rect height="2" id="borders_9" width="1" x="3" y="14"/>
+    <rect height="1" id="borders_10" width="8" x="4" y="15"/>
+    <rect height="2" id="borders_11" width="1" x="3" y="10"/>
+    <rect height="2" id="borders_12" width="1" x="6" y="11"/>
+    <rect height="1" id="borders_13" width="8" x="4" y="10"/>
+    <rect height="2" id="borders_14" width="1" x="12" y="10"/>
+    <rect height="2" id="borders_15" width="1" x="9" y="11"/>
+    <rect height="2" id="borders_16" width="1" x="12" y="14"/>
+    <rect height="2" id="borders_17" width="1" x="13" y="13"/>
+    <rect height="2" id="borders_18" width="2" x="13" y="11"/>
+    <rect height="7" id="borders_19" width="1" x="15" y="5"/>
+    <rect height="2" id="borders_20" width="1" x="14" y="4"/>
+    <rect height="1" id="borders_21" width="2" x="13" y="3"/>
+    <rect height="1" id="borders_22" width="2" x="12" y="2"/>
+    <rect height="1" id="borders_23" width="3" x="10" y="1"/>
+  </g>
+  <g id="faces">
+    <rect height="4" id="face_1" style="fill: #fff;" width="2" x="10" y="11"/>
+    <rect height="4" id="face_2" style="fill: #fff;" width="2" x="7" y="11"/>
+    <rect height="2" id="face_3" style="fill: #fff;" width="1" x="12" y="12"/>
+    <rect height="2" id="face_4" style="fill: #fff;" width="1" x="9" y="13"/>
+    <rect height="2" id="face_5" style="fill: #fff;" width="1" x="6" y="13"/>
+    <rect height="2" id="face_6" style="fill: #fff;" width="1" x="3" y="12"/>
+    <rect height="4" id="face_7" style="fill: #fff;" width="2" x="4" y="11"/>
+  </g>
+  <g id="stains">
+    <g id="centers">
+      <rect height="3" id="center_1" style="fill: __STAINS__;" width="1" x="5" y="6"/>
+      <rect height="5" id="center_2" style="fill: __STAINS__;" width="4" x="6" y="5"/>
+      <rect height="3" id="center_3" style="fill: __STAINS__;" width="1" x="10" y="6"/>
+    </g>
+    <g id="southwests">
+      <rect height="3" id="southwest_1" style="fill: __STAINS__;" width="1" x="1" y="6"/>
+      <rect height="5" id="southwest_2" style="fill: __STAINS__;" width="1" x="2" y="4"/>
+      <rect height="3" id="southwest_3" style="fill: __STAINS__;" width="1" x="3" y="5"/>
+    </g>
+    <g id="southeasts">
+      <rect height="3" id="southeast_1" style="fill: __STAINS__;" width="1" x="12" y="5"/>
+      <rect height="5" id="southeast_2" style="fill: __STAINS__;" width="1" x="13" y="4"/>
+      <rect height="3" id="southeast_3" style="fill: __STAINS__;" width="1" x="14" y="6"/>
+    </g>
+    <g id="northeasts">
+      <rect height="2" id="northeast_1" style="fill: __STAINS__;" width="2" x="10" y="2"/>
+      <rect height="2" id="northeast_2" style="fill: __STAINS__;" width="1" x="9" y="1"/>
+    </g>
+    <g id="northwests">
+      <rect height="2" id="northwest_1" style="fill: __STAINS__;" width="2" x="4" y="2"/>
+      <rect height="2" id="northwest_2" style="fill: __STAINS__;" width="1" x="6" y="1"/>
+    </g>
+  </g>
+  <g id="meshes">
+    <rect height="2" id="meshes_1" style="fill: __MESHES__;" width="2" x="1" y="9"/>
+    <rect height="2" id="meshes_2" style="fill: __MESHES__;" width="1" x="3" y="8"/>
+    <rect height="1" id="meshes_3" style="fill: __MESHES__;" width="2" x="4" y="9"/>
+    <rect height="2" id="meshes_4" style="fill: __MESHES__;" width="1" x="3" y="3"/>
+    <rect height="3" id="meshes_5" style="fill: __MESHES__;" width="1" x="4" y="6"/>
+    <rect height="2" id="meshes_6" style="fill: __MESHES__;" width="2" x="4" y="4"/>
+    <rect height="2" id="meshes_7" style="fill: __MESHES__;" width="4" x="6" y="3"/>
+    <rect height="2" id="meshes_8" style="fill: __MESHES__;" width="2" x="7" y="1"/>
+    <rect height="2" id="meshes_9" style="fill: __MESHES__;" width="2" x="10" y="4"/>
+    <rect height="2" id="meshes_10" style="fill: __MESHES__;" width="1" x="12" y="8"/>
+    <rect height="2" id="meshes_11" style="fill: __MESHES__;" width="2" x="13" y="9"/>
+    <rect height="3" id="meshes_12" style="fill: __MESHES__;" width="1" x="11" y="6"/>
+    <rect height="1" id="meshes_13" style="fill: __MESHES__;" width="2" x="10" y="9"/>
+    <rect height="2" id="meshes_14" style="fill: __MESHES__;" width="1" x="12" y="3"/>
+  </g>
+</svg>
